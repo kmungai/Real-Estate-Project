@@ -1,0 +1,73 @@
+*{
+    text-decoration: none;
+}
+
+
+.topnav{
+    padding: 18px;
+    background-color: aqua;
+    list-style-type: none;
+    height: 60px;
+    margin-bottom: 0px;
+    
+  }
+  
+
+.topbar ul li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+
+body{
+    
+    background-image: url(images/house1.png);
+   
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #ffffffea;
+    margin-top: 0px;
+    padding: 20px 20px 0 20px;
+    
+}
+
+.footer {
+    background-color: rgba(61, 47, 47, 0.856);
+    color: white;
+    }
+    
+    .footertag {
+    display: flex;
+    /* justify-content: center;*/
+    align-items: center;
+    padding: 20px;
+    }
+
+.phone img{
+    width: 30px;
+}
+      
+
+    .footertag div {
+        display: flex;
+        align-items: center;
+      }
+      
+    .footertag h2 {
+        margin-right: 30px;
+      }
+      
+    .social-media div {
+        margin-right: 30px;
+        margin-left: 100px;
+      }
+      
+    .social-media img {
+        width: 25px;
+        height: 25px;
+      }

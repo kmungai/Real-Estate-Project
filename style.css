@@ -11,7 +11,7 @@
 
 p{
     line-height: 30px;
-    color: #ffffffb9;
+    color: #ffffffea;
     padding-left: 18px;
     padding-right: 18px;
 }
@@ -20,12 +20,17 @@ p{
     padding: 18px;
     background-color: aqua;
     list-style-type: none;
+    height: 60px;
+    
   }
   
 
 .topbar ul li{
     display: inline-block;
     margin-right: 30px;
+    margin-top: 20px;
+    font-size: 30px;
+    
 }
   
   
@@ -148,10 +153,79 @@ div div h2 a{
         width: 25px;
         height: 25px;
       }
-      
+
+      /*FOR PROPERTIES.HTML*/
+/*
+body.propertiespage{
+    background-image: url(images/house1.png);
+    background-color: rgba(0, 0, 0, 0.1);  
+    line-height: 30px;
+    color: #ffffff;
+    padding-left: 18px;
+    padding-right: 18px;
+}*/
+
+/*
+.allHouses{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+body.propertiespage{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: red;
+}
+
+.ourApartments{
+    background-color: rgba(0, 0, 0, 0.705);
+}
 
 
+.ourBungalows{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+/*
+.sunshine2{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+8?
 
+/*
+.ourApartments{
+background-color: rgba(0, 0, 0, 0.705);
+color: red;
+ 
+}
 
+.sunshine1.sunshine2.sunshine3{
+    display: flex;
+    flex: 0 0 auto;
 
+}
 
+.sunshine1{
+    justify-items: left;
+}
+   */
+   /* FOR PROPERTIES.HTML */
+
+/* Add a class to the body tag to target the properties page */
+/*
+body.propertiespage {
+    background-color: rgba(0, 0, 0, 0.705);
+    color: #ffffff;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  
+  .allHouses {
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+  
+  .ourApartments {
+    background-color: rgba(0, 0, 0, 0.705);
+  }
+  
+  .ourBungalows {
+    background-color: rgba(0, 0, 0, 0.705);
+  }*/
+  
