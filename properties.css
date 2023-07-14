@@ -1,24 +1,69 @@
 *{
     text-decoration: none;
-}
+  }
 
+/*  MEDIA QUERY*/
+/* Default styles for all screen sizes */
+/* Add your default styles here */
 
-.topnav{
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px */
+    /* Adjust the styles for smaller screens here */
+  }
+  
+  /* Media query for screens between 601px and 900px */
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* Styles for screens with a width between 601px and 900px */
+    /* Adjust the styles for medium-sized screens here */
+  }
+  
+  /* Media query for screens larger than 901px */
+  @media (min-width: 901px) {
+    /* Styles for screens with a minimum width of 901px */
+    /* Adjust the styles for larger screens here */
+  }
+
+  
+  /*CODE STYLING*/
+
+ 
+  .topnav{
     padding: 18px;
-    background-color: aqua;
     list-style-type: none;
     height: 60px;
-    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
+  }
+
+  .topbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
   }
   
 
 .topbar ul li{
-    display: inline-block;
+   display: inline-block;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 80px;
     font-size: 30px;
     
+}
+
+.logo{
+    width: 180px;
+}
+
+.logocontainer{
+    background-color: aqua;
+    display: flex;
 }
 
 
@@ -36,38 +81,91 @@ body{
     
 }
 
-.footer {
-    background-color: rgba(61, 47, 47, 0.856);
-    color: white;
-    }
+.ourApartments{
     
-    .footertag {
+}
+
+
+
+.apartmentsmod{
+
+}
+
+.sunshine1{
     display: flex;
-    /* justify-content: center;*/
     align-items: center;
-    padding: 20px;
-    }
+    
+}
+
+.imagescontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  
+  .main1 {
+    order: 1; /* Set the order to 1 to make it appear first */
+    
+  }
+  
+  .others1 {
+    display: flex;
+    order: 2; /* Set the order to 2 to make it appear second */
+    max-width: 50%;
+    gap: 10px;
+    
+}
+
+.others1 ul li{
+    text-align: center;
+    height: 30px;
+    color: red;
+    
+}
+  
+  .others img{
+    width: 30px;
+  }
+
+
+
+.others1{
+    display: flex;
+}
+
+
+.footer {
+  background-color: rgb(9, 15, 20);
+  color: white;
+  }
+  
+  .footertag {
+  display: flex;
+  /* justify-content: center;*/
+  align-items: center;
+  padding: 20px;
+  }
 
 .phone img{
-    width: 30px;
+  width: 30px;
 }
-      
+    
 
-    .footertag div {
-        display: flex;
-        align-items: center;
-      }
-      
-    .footertag h2 {
-        margin-right: 30px;
-      }
-      
-    .social-media div {
-        margin-right: 30px;
-        margin-left: 100px;
-      }
-      
-    .social-media img {
-        width: 25px;
-        height: 25px;
-      }
+  .footertag div {
+      display: flex;
+      align-items: center;
+    }
+    
+  .footertag h2 {
+      margin-right: 30px;
+    }
+    
+  .social-media div {
+      margin-right: 30px;
+      margin-left: 100px;
+    }
+    
+  .social-media img {
+      width: 25px;
+      height: 25px;
+    }
