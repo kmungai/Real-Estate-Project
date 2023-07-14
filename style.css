@@ -2,6 +2,31 @@
     text-decoration: none;
   }
 
+/*  MEDIA QUERY*/
+/* Default styles for all screen sizes */
+/* Add your default styles here */
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* Styles for screens with a maximum width of 600px */
+    /* Adjust the styles for smaller screens here */
+  }
+  
+  /* Media query for screens between 601px and 900px */
+  @media (min-width: 601px) and (max-width: 900px) {
+    /* Styles for screens with a width between 601px and 900px */
+    /* Adjust the styles for medium-sized screens here */
+  }
+  
+  /* Media query for screens larger than 901px */
+  @media (min-width: 901px) {
+    /* Styles for screens with a minimum width of 901px */
+    /* Adjust the styles for larger screens here */
+  }
+
+  
+  /*CODE STYLING*/
+
   body{
     background-image: url(images/house1.png);
     background-color: rgba(0, 0, 0, 0.1);   
