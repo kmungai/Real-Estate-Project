@@ -9,117 +9,129 @@
 </head>
 
 <body>
-    <div class="logocontainer">
-        <div>
-          <img class="logo" src="images/logo.png" alt="Logo">
+    <div>
+        <div class="logocontainer">
+            <div>
+            <img class="logo" src="images/logo.png" alt="Logo">
+            </div>
+            <nav class="topbar">
+                <ul class="topnav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Models</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            </nav>
         </div>
-        <nav class="topbar">
-            <ul class="topnav">
+    <div class="bookingpage">
+        <nav class="navigationpane">
+            <ul class="bodylink">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Models</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
+            <li><a href="properties.html">Properties</a></li>
+            <li><a href="#">Ongoing Projects</a></li>
+            <li><a href="book.html" target="_blank">Book a visit</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Leave a comment</a></li>
+            </ul>
         </nav>
-      </div>
-<div class="bookingpage">
-  <div>
-    <article>
-      <p>
-        <h2>Book A Free Site Visit
-
-        </h2>
-            Visiting the property in person is a crucial step in making an informed decision about your future home or investment. Our team is excited to assist you in scheduling a site visit to explore our diverse range of properties and experience firsthand what each has to offer.
-       
-            </article>
-            <article>
-                <p>
-                    <h2>Why Book a Site Visit?</h2>
+    <div class="bookingintro"> <!--this is a div-->
+        <article>
+            <p>
+                <h2>Book A Free Site Visit</h2>
+                    <p>
+                        Visiting the property in person is a crucial step in making an informed decision about your future home or investment. Our team is excited to assist you in scheduling a site visit to explore our diverse range of properties and experience firsthand what each has to offer.
+                    </p>
+            
+        </article>
+        <article>
+            <p>
+                <h2>Why Book a Site Visit?</h2>
                     <ul>
-                    <li>See it for Yourself: See the property beyond photos and descriptions,walk through the spaces, visualize the layout.</li>
+                        <li>See it for Yourself: See the property beyond photos and descriptions,walk through the spaces, visualize the layout.</li>
 
-                    <li>Ask Questions: Our expert team will be present during the visit to address any questions or concerns you may have.</li>
+                        <li>Ask Questions: Our expert team will be present during the visit to address any questions or concerns you may have.</li>
 
-                    <li>Explore the Surroundings: </li>
+                        <li>Explore the Surroundings: </li>
 
-                    <li>Make an Informed Decision</li>
+                        <li>Make an Informed Decision</li>
                     </ul>
-                </p>
-            </article>
-        <p>
-            Booking Form:
-            Please fill in the following details to schedule your site visit:
-        </p>
+            </p>
+        </article>
+            <p>
+                Booking Form:
+                Please fill in the following details to schedule your site visit:
+            </p>
+        
+    <!--this is a div-->
+        <div class="bookingform">
+        <form>
+        <!--this is a div-->
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter first name" required> <input type="text" id="lname" name="lname" placeholder="Enter last name" required>  
+            </div> <br>
     
-  </div>
-    <div class="bookingform">
-     <form>
-       <div>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" placeholder="Enter first name" required> <input type="text" id="lname" name="lname" placeholder="Enter last name" required>  
-        </div> <br>
-   
+            
+            <div>
+            <label for="Email">Email address:</label>
+            <input type="email" id="mobile" name="mobile" placeholder="Email address">
+            </div> <br>
+    
         
         <div>
-          <label for="Email">Email address:</label>
-          <input type="email" id="mobile" name="mobile" placeholder="Email address">
-        </div> <br>
-   
-       
-       <div>
-          <label for="Mobile">Email address:</label>
-          <input type="tel" id="mobile" name="mobile" placeholder="Mobile">
-        </div> <br>
+            <label for="Mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="Mobile">
+            </div> <br>
 
-        <div>
-          <label for="seats">No. of seats:</label>
-          <input type="number" id="seats" name="seats" required>
-        </div> <br>
+            <div>
+            <label for="seats">No. of seats:</label>
+            <input type="number" id="seats" name="seats" required>
+            </div> <br>
 
-        <div>
-          <label for="Date">Preferred date:</label>
-          <input type="Date" id="date" name="date">
-        </div> <br>
+            <div>
+            <label for="Date">Preferred date:</label>
+            <input type="Date" id="date" name="date">
+            </div> <br>
 
-        <label for="site">Site to visit</label>
-        <select name="Our Sites" id="site">
-          <option value="none">None</option>
-          <option value="apartments">Apartments</option>
-          <option value="bungalows">Bungalows</option>
-          <option value="mansionettes">Mansionettes</option>
-          <option value="projects">Ongoing projects</option>
-          </select> <br> <br>
+            <label for="site">Site to visit</label>
+            <select name="Our Sites" id="site">
+            <option value="none">None</option>
+            <option value="apartments">Apartments</option>
+            <option value="bungalows">Bungalows</option>
+            <option value="mansionettes">Mansionettes</option>
+            <option value="projects">Ongoing projects</option>
+            </select> <br> <br>
 
-          <label for="address">Client Address</label> <br>
-            <input type="text" id="address" name="address" required> <br>
+            <label for="address">Client Address</label> <br>
+                <input type="text" id="address" name="address" required> <br>
+                <br>
+            <textarea name="comments" id="comments" cols="50" rows="5">Additional information</textarea> 
+            
             <br>
-          <textarea name="comments" id="comments" cols="50" rows="5">Additional information</textarea> 
-          
-          <br>
-       <button>SUBMIT</button> <input type="reset" value="Reset">
-         
-     </form>
+        <button>SUBMIT</button> <input type="reset" value="Reset">
+            
+        </form>
 
-      <article>
-        <p>
-          <h2>Terms and Conditions:</h2> <br>
-    <ol>
-      <li>
-         Site visits are scheduled based on availability and prior appointments.
-      </li>
-      <li>
-        Our team will confirm the visit date and time via email or phone call.
-      </li>
-      <li>In case of any changes or cancellations, please notify us at least 24 hours in advance.</li>
-         </ol>
-        <h3>Privacy Policy:</h3> <br>
-        Your personal information will be kept confidential and used solely for the purpose of arranging the site visit. We respect your privacy and adhere to all data protection laws.
-      </p>
-      </article>
+        <article>
+            <p>
+            <h2>Terms and Conditions:</h2>
+        <ol>
+        <li>
+            Site visits are scheduled based on availability and prior appointments.
+        </li>
+        <li>
+            Our team will confirm the visit date and time via email or phone call.
+        </li>
+        <li>In case of any changes or cancellations, please notify us at least 24 hours in advance.</li>
+            </ol>
+            <h3>Privacy Policy:</h3> 
+            Your personal information will be kept confidential and used solely for the purpose of arranging the site visit. <br>We respect your privacy and adhere to all data protection laws.
+        </p>
+        </article>
 
-      <br>
-
-      <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=nairobi kenya&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://connectionsgame.org/">Connections NYT</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+        <br> 
+    </div>
     </div>
 </div>
 <div class="footer">
@@ -143,6 +155,7 @@
       </div>
     </nav>
   </div>
+
 </body>
 
 </html>

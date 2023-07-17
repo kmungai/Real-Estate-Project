@@ -31,10 +31,10 @@ body{
 
 .topbar ul li{
    display: inline-block;
-    margin-right: 30px;
+    margin-left: 30px;
     margin-top: 80px;
     font-size: 30px;
-    
+        
 }
 
 .logo{
@@ -54,10 +54,47 @@ body{
 }
 
 .bookingpage{
+    display: flex;
     background-color: rgba(0, 0, 0, 0.85);
     color: #FFF;
-    padding: 30px;
     
+    
+}
+
+.bookingintro{
+    padding-left: 30px;
+}
+
+.navigationpane{
+    flex: 0, 0, auto;
+    background-color: rgba(0, 0, 0, 0.742);
+    color: #FFF;
+    
+    
+}
+
+.navigationpane ul li{
+    display: list-item;
+    list-style-type: none;
+    width: 200px;
+    line-height: 50px;
+    color: #FFF;
+}
+
+.bodylink{
+    padding: o;
+    margin: o;
+}
+
+
+.bodylink li{
+    margin-top: 10px;
+    width: 39px;
+    color: #FFF;
+}
+
+.bodylink li a{
+    color: #FFF;
 }
 
 .bookingform{
