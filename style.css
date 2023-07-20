@@ -53,6 +53,11 @@ p{
     padding-right: 18px;
 }
 
+.tagline{
+    font-size: 25px;
+    color: rgb(8, 24, 248);
+}
+
 .about{
     color: #FFF;
 }
@@ -98,7 +103,7 @@ p{
 }
 
 .logocontainer{
-    background-color: aqua;
+    background-color: beige;
     display: flex;
     
 }
