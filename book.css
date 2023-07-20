@@ -2,9 +2,16 @@
     text-decoration: none;
 }
 
+  
+
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
-    background-image: url(images/house1.png);
-    background-color: rgba(0, 0, 0, 0.1);   
+    /*background-image: url(images/house1.png);*/
+    background-color: limegreen;   
+    margin: 1px;
     
   }
  
@@ -29,12 +36,13 @@ body{
   }
   
 
-.topbar ul li{
-   display: inline-block;
-    margin-left: 30px;
+  .topbar ul li{
+    display: inline-block;
+    margin-left: 10px;
     margin-top: 80px;
     font-size: 30px;
-        
+    border: 1px solid rgba(0, 0, 255, 0.527);   
+    background-color: blanchedalmond;
 }
 
 .logo{
@@ -55,7 +63,7 @@ body{
 
 .bookingpage{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #FFF;
     
     
@@ -67,7 +75,7 @@ body{
 
 .navigationpane{
     flex: 0, 0, auto;
-    background-color: rgba(0, 0, 0, 0.742);
+    background-color: rgba(0, 0, 0, 0.42);
     color: #FFF;
     
     
@@ -103,6 +111,10 @@ body{
 
 p{
     line-height: 30px;
+}
+
+.reset{
+    
 }
 
 .footer {

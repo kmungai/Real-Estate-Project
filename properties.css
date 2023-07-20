@@ -2,6 +2,9 @@
     text-decoration: none;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
 
 .topnav{
     padding: 18px;
@@ -24,13 +27,14 @@
   }
   
 
-.topbar ul li{
-   display: inline-block;
-    margin-left: 30px;
+  .topbar ul li{
+    display: inline-block;
+    margin-left: 10px;
     margin-top: 80px;
     font-size: 30px;
-    
-}
+    border: 1px solid rgba(0, 0, 255, 0.527);
+    background-color: blanchedalmond;
+  }
 
 .logo{
     width: 180px;
@@ -44,7 +48,8 @@
 
 body{
     
-    background-image: url(images/house1.png);
+    background-color: limegreen;
+    margin: 1px;
    
 }
 
