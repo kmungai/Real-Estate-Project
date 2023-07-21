@@ -1,0 +1,137 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px){
+    img{
+        width: 100%;
+    }
+
+
+body{
+    display: block;
+}
+
+/*adjusting images*/
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.topnav li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div{
+    display: block;
+}
+
+.navigationpane{
+    display: none;
+}
+
+p{
+    font-size: 16px;
+}
+
+.footertag {
+    padding: 30px;
+  }
+
+  .footertag img {
+    width: 40px;
+    height: 40px;
+  }
+
+}
+
+
+/* Media query for screens with a maximum width of 992px */
+@media (min-width: 601px) and (max-width: 992px){
+    img{
+        width: 100%;
+    }
+
+
+body{
+    display: block;
+}
+
+/*adjusting images*/
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.topnav li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div{
+    display: block;
+}
+
+p{
+    font-size: 19px;
+}
+
+.footertag {
+    padding: 40px;
+  }
+
+
+  .footertag img {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+
+/* Media query for screens with a min width of 993px */
+
+@media (min-width: 993px) {
+    /* Adjust styles for larger screens */
+    /* Add specific styles for screens larger than 992px here */
+  
+    /* Example adjustments for larger screens */
+    .content {
+      padding: 40px;
+    }
+
+    .content img {
+        width: auto;
+    }
+  
+    .topnav li {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  
+    .logocontainer{
+       display: flex;
+        
+    }
+
+    .bodynav{
+        
+        display: flex;
+    }
+  
+    /* Adjust font size for larger screens */
+    p {
+      font-size: 20px;
+    }
+  
+    /* Adjust the size of footer icons for larger screens */
+    .footertag img {
+      width: 60px;
+      height: 60px;
+    }
+  }

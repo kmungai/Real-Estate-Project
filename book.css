@@ -1,3 +1,5 @@
+
+@import "media.cs";  /* importing the media queries*/
 *{
     text-decoration: none;
 }
